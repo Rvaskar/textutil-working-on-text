@@ -4,6 +4,11 @@ import React, {useState} from 'react'
 
 
 export default function Textform(props) {
+    let myStyle={
+        color : 'white',
+        background : "blue",
+        borderRadius : "10px"
+    }
     const handleupClick = () =>{
         console.log("uppercase was clicked" +text);
         let newText = text.toUpperCase();
@@ -86,7 +91,7 @@ export default function Textform(props) {
     // setText("new Text"); //right way to change the state
     return (
     <>
-    <div className="container">
+    <div className="container" style={myStyle}>
         <h1>{props.heading}</h1>
         <div className="mb-3">
             <label htmlFor="Mybox" className="form-label"></label>
@@ -94,10 +99,10 @@ export default function Textform(props) {
         </div>
         <button className="btn btn-primary mx-2" onClick={handleupClick}>Convert to uppercase</button>
         <button className="btn btn-primary mx-2" onClick={handlelowClick}>Convert to Lowercase</button>
-        <button className="btn btn-primary mx-2" onClick={handleclearClick}>Clear Text</button>
-        <button className="btn btn-primary mx-2" onClick={copyText}>copy text</button>
+        <button className="btn btn-danger mx-2" onClick={handleclearClick}>Clear Text</button>
+        <button className="btn btn-info mx-2" onClick={copyText}>copy text</button>
         <button type="submit" onClick={speak} className="btn btn-warning mx-2 my-2" id="toggle">Speak</button>
-        <button className='btn btn-primary mx-2' onClick={downloadTxtFile}>Download Text</button>
+        <button className='btn btn-info mx-2' onClick={downloadTxtFile}>Download Text</button>
     </div>
     <div className="container my-5">
         <h1>Your text summary</h1>
