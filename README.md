@@ -1,3 +1,32 @@
+ <h1>TextUtil using Raectjs</h1>
+    <div class="container">
+        <h3>How to run the Project and important files</h3>
+        <h2>Required modules</h2>
+        <p> </p>
+        <p>npx create-react-app projectNAme</p>
+        <p>cd ProjectFolder</p>
+        <p>npm start</p>
+    </div>
+    <div class="container">
+        <h3> 1) Code</h3>
+        <p>Here is the all files </p>
+        <img src="/code.png" alt="codeImage">
+    </div>
+    <h1>Outputs</h1>
+    <div class="container">
+        <h3>1) Homepage</h3>
+        <p>Output page of project</p>
+        <img src="/home.png" alt="codeImage">
+    </div>
+    <div class="container">
+        <h3>2) Converting to uppercase case  </h3>
+        <p>after adding new todo we can see in below container</p>
+        <img src="/upper.png" alt="aboutPage">
+    </div>
+    <div class="container">
+        <h3>3)Converting to lower case and low case</h3>
+        <img src="/dart and lower.png" alt="aboutPage">
+    </div>
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
